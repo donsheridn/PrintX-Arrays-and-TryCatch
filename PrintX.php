@@ -4,6 +4,7 @@
  * User: Don
  * Date: 10/20/14
  * Time: 6:42 PM
+ * to run use: php PrintX.php 10
  */
 
 $Number = $argv[1];
@@ -42,7 +43,6 @@ if (is_numeric($Number)) {
             $HalfXsNumber = $LineNumber;
 
             $FirstFinishPosition = $FirstStartPosition + $HalfXsNumber;
-//            $LastFinishPosition = $FirstStartPosition + $LineNumber + $Spaces ;
 
             for ($j = $FirstStartPosition; $j < $FirstFinishPosition; $j++) {    //Print the #'s at correct places
                 $VArray[$i][$j] = '#';
@@ -86,7 +86,6 @@ if (is_numeric($Number)) {
             $HalfXsNumber = $XNumber / 2;
 
             $FirstFinishPosition = $FirstStartPosition + $HalfXsNumber;
-//            $LastFinishPosition = $FirstStartPosition + $LineNumber + $Spaces ;
 
             for ($j = $FirstStartPosition; $j < $FirstFinishPosition; $j++) {    //Print the #'s at correct places
                 $VArray[$i][$j] = '#';

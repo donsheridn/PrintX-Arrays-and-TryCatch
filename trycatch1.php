@@ -17,7 +17,7 @@ class myclass {
 
     use mytrait;
 
-    function myclass(){            // This is an Old Sytle PHP4
+    function myclass(){            // This is an Old Style PHP4
         $this->run();
     }
 

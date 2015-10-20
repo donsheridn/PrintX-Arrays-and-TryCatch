@@ -6,16 +6,6 @@
  * Time: 6:56 PM
  */
 
-//trait Base
-//{
-//    function PrintMessage($e) {
-//        echo "File: " .$e->getfile(). PHP_EOL;
-//        echo "Line: ".$e->getline(). PHP_EOL;
-//        echo "Message: ".$e->getmessage(). PHP_EOL;
-//        echo "Trace: " . $e->getTraceAsString() . PHP_EOL;
-//    }
-//}
-
 class TireException extends \RuntimeException {};
 class CarException extends \RuntimeException {};
 
